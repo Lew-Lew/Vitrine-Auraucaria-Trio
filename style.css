@@ -1,0 +1,192 @@
+body {
+  background-color: #2b3230;
+}
+
+#section1 {
+  background-image: url("static/117629983_101438785013182_5586470986456835535_o.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45em;
+}
+
+#titleSite {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  font-weight: 600;
+  margin-left: 0.5em;
+}
+
+#subtitleSite {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-right: 3em;
+}
+
+/* section 2 */
+
+#HeroPresentationTest2 {
+  background-color: #2b3230;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40em;
+}
+
+.columns {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#presentationCamille2 {
+  border: white 1px solid;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-top: 7em;
+  height: 15em;
+  width: 10em;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.instruments {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#presentationNathan2 {
+  border: white 1px solid;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-top: 7em;
+  margin-left: 2em;
+  margin-right: 2em;
+  height: 15em;
+  width: 10em;
+}
+
+#presentationValentin2 {
+  border: white 1px solid;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-top: 7em;
+  height: 15em;
+  width: 10em;
+}
+
+/* section 3 Biographie */
+
+#bio {
+  background-color: whitesmoke;
+}
+
+#paragrapheBio {
+  font-family: "Playfair Display", serif;
+  text-align: justify;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* section 4 dates concerts */
+
+#sectionDates {
+  background-color: #2b3230;
+  height: 30em;
+}
+
+#divTable {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tableConcerts {
+  font-family: "Playfair Display", serif;
+  background-color: #2b3230;
+  color: whitesmoke;
+}
+
+.lieuxConcerts {
+  width: 80%;
+}
+
+/* contact */
+
+#titleContact {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#formContact {
+  background-color: whitesmoke;
+}
+
+form {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+}
+
+#buttonSubmit {
+  margin-top: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+}
+
+/* hero Photo */
+
+#heroPhotos {
+  height: 45em;
+  background-image: url("static/118000813_104566044700456_6517203258677409369_o.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2b3230;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+
+#linkFb {
+  padding-right: 1em;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: whitesmoke !important;
+}
+
+#linkInstagram {
+  padding-left: 1em;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: whitesmoke !important;
+}
