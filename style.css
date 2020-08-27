@@ -19,11 +19,29 @@ body {
   margin-left: 0.5em;
 }
 
-#subtitleSite {
+#contactUs {
   color: white;
   font-family: "Playfair Display", serif;
   font-size: 1.5em;
   margin-right: 3em;
+}
+
+#contactUs:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
+.navRight {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-right: 3em;
+  margin-bottom: 1.6em;
+}
+
+.navRight:hover {
+  animation: pulse;
+  animation-duration: 1s;
 }
 
 /* section 2 */
@@ -110,9 +128,21 @@ body {
   height: 30em;
 }
 
+#titleConcerts {
+  padding-top: 2em;
+
+  /* border: red 1px solid; */
+  color: whitesmoke;
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  text-align: center;
+}
+
 #divTable {
+  margin-top: 1em;
+  padding-bottom: 5em;
   margin: auto;
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +155,7 @@ body {
 }
 
 .lieuxConcerts {
-  width: 80%;
+  width: 70%;
 }
 
 /* contact */
@@ -165,6 +195,75 @@ form {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* section Albums */
+
+#sectionAlbums2 {
+  background-color: whitesmoke;
+}
+
+#titleAlbum {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+
+#divImgAlbum {
+  border: #2b3230 0.5px solid;
+  width: 20em;
+  height: 20em;
+  overflow: hidden;
+}
+
+#imgAlbum {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s ease-in-out;
+}
+
+#imgAlbum:hover {
+  transform: scale(1.05);
+  transition: all 1.2s ease-in-out;
+}
+
+#divLinksAlbum {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+#linkSpotify {
+  color: black !important;
+}
+
+#linkApple {
+  color: black !important;
+}
+
+#linkDeezer {
+  color: black !important;
+}
+
+/* section video */
+
+#heroVideo {
+  background-color: whitesmoke;
+  height: 40em;
+}
+
+#divVideo {
+  margin-top: 4em;
+  margin-bottom: 5em;
+  width: 70%;
+}
+
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 31em;
 }
 
 /* footer */

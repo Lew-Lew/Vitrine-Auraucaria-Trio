@@ -11,10 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <script src="script2.js" defer></script>
     <title>Auraucária Trio</title>
   </head>
   <body>
+    <!-- header -->
+
     <section class="section" id="section1">
       <nav class="level">
         <div class="level-left">
@@ -22,16 +29,27 @@
         </div>
         <div class="level-right">
           <a href="#formContact">
-            <h3 class="subtitle" id="subtitleSite">Contactez-nous</h3></a
+            <h3 class="subtitle" id="contactUs">Contactez-nous</h3></a
           >
         </div>
       </nav>
+      <div class="level-right">
+        <a href="#sectionDates"> <h3 class="subtitle navRight">Concerts</h3></a>
+      </div>
+      <div class="level-right">
+        <a href="#sectionAlbums2"> <h3 class="subtitle navRight">Albums</h3></a>
+      </div>
     </section>
+
+    <!-- section présentation -->
 
     <section class="hero" id="HeroPresentationTest2">
       <div class="columns">
         <div class="column is-3" id="presentationCamille2">
-          <h4 class="name">Camille Arcache</h4>
+          <h4 class="name">
+            Camille <br />
+            Arcache
+          </h4>
           <div class="instruments">
             Chant <br />
             Percussions <br />
@@ -47,7 +65,10 @@
           </div>
         </div>
         <div class="column is-3" id="presentationValentin2">
-          <h4 class="name">Valentin Delbrel</h4>
+          <h4 class="name">
+            Valentin <br />
+            Delbrel
+          </h4>
           <div class="instruments">
             Guitare <br />
             Percussions <br />
@@ -56,6 +77,8 @@
         </div>
       </div>
     </section>
+
+    <!-- section bio -->
 
     <section class="section" id="bio">
       <div class="columns">
@@ -78,7 +101,8 @@
           incidunt, suscipit quam dolores quisquam fuga, corrupti adipisci? Sunt
           porro laboriosam doloribus sit pariatur debitis commodi officia non
           harum ipsa dolore, totam distinctio eaque similique laborum iusto
-          blanditiis iure accusantium deserunt esse, molestiae qui, ab
+          <br />
+          <br />
           consectetur. Fugiat laborum praesentium fuga fugit libero, minus
           deleniti perspiciatis dolore, quibusdam cupiditate reiciendis. Cumque
           quos harum non assumenda, rem ratione illum distinctio reiciendis,
@@ -93,50 +117,42 @@
       </div>
     </section>
 
+    <!-- section concerts -->
+
     <section class="hero" id="sectionDates">
+      <h1 class="title" id="titleConcerts">Concerts</h1>
       <div class="container" id="divTable">
-        <table id="tableConcerts" class="table is-fullwidth">
-          <tbody>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-            <tr>
-              <td class="lieuxConcerts">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-              </td>
-              <td class="datesConcerts">15 Septembre 2020</td>
-            </tr>
-          </tbody>
-        </table>
+        <table id="tableConcerts" class="table is-fullwidth"></table>
       </div>
     </section>
+
+    <!-- section Albums -->
+
+    <section class="section" id="sectionAlbums2">
+      <div class="columns" id="columnsAlbum2"></div>
+    </section>
+
+    <!-- section video -->
+
+    <section class="hero" id="heroVideo">
+      <div class="container" id="divVideo">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yPGK1-6m_j4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- photo du groupe -->
+
+    <section class="hero" id="heroPhotos"></section>
+
+    <!-- section formulaire contact -->
 
     <section class="section" id="formContact">
       <h1 class="title" id="titleContact">Contactez-nous!</h1>
@@ -174,9 +190,10 @@
         </form>
       </div>
     </section>
-
-    <section class="hero" id="heroPhotos"></section>
   </body>
+
+  <!-- footer -->
+
   <footer class="footer">
     <div class="breadcrumb has-bullet-separator is-centered" id="rsFooter">
       <ul>
